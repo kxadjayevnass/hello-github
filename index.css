@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.banner {
+    background-color: rgb(83, 83, 255);
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 400;
+    padding: 20px;
+    margin: 20px;
+}
+
+button {
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: rgb(196, 111, 14);
+    letter-spacing: 2px;
+}
+
+.content h1 {
+    font-weight: 400;
+    color: white;
+}
+
+.content {
+    color: white;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: blueviolet;
+}
+
+.icon {
+    width: 30%;
+    padding: 20px;
+}
+
+.icon img {}
+
+.icons {
+    display: flex;
+    gap: 12px;
+    padding-top: 30px;
+    color: rgb(100, 98, 98);
+}
+
+.icons i {
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.icons i:hover {
+    color: rgb(61, 61, 147);
+}
+
+.containers {
+    display: flex;
+    padding: 30px 20px;
+    gap: 50px;
+}
+
+.About p {
+    padding: 5px 0;
+
+}
+
+.About p:hover {
+    color: rgb(61, 61, 147);
+}
+
+.About h5:hover {
+    color: rgb(61, 61, 147);
+}
+
+.About h5 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.icons i:hover {
+    color: black;
+}
+
+.facebook {
+    background-color: silver;
+    padding: 8px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.facebook:hover {
+    background-color: rgb(81, 81, 230);
+
+}
+
+.twitter {
+    background-color: silver;
+    padding: 8px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.twitter:hover {
+    background-color: rgb(81, 81, 230);
+
+}
+
+.instagram {
+    background-color: silver;
+    padding: 8px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.instagram:hover {
+    background-color: rgb(81, 81, 230);
+
+} 
+.youtube {
+    background-color: silver;
+    padding: 8px;
+    border-radius: 20px;
+    object-fit: cover;
+
+}
+
+.youtube:hover {
+    background-color: rgb(81, 81, 230);
+
+} 
